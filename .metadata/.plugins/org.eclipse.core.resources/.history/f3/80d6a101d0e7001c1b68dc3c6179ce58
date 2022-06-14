@@ -1,0 +1,42 @@
+package college.intro1;
+
+import java.util.Random;
+
+public class PracticalTraining1_1_8 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1-1実習
+		
+		//◆ while文
+		//【問題8-1】
+		/*
+		0から99の乱数を繰り返し出し、合計が50000を越える回数
+		を求めなさい。平均1000回?
+		*/
+		Random rnd = new Random();
+		int count = 0;
+		int value = 0;
+		do {
+			value = rnd.nextInt(100);
+			value += value;
+			count++;
+			System.out.println(value);
+		} while(value <= 50000);
+		/*
+		while(value <= 50000) {
+			value = rnd.nextInt(100);
+			value += value;
+			count++;
+		}
+		*/
+		System.out.println(value);
+		System.out.println(count);
+		
+		
+		//【問題8-2】
+		System.out.println();//改行
+
+	}
+
+}

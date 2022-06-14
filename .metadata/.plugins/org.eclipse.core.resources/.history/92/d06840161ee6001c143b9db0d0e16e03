@@ -1,0 +1,22 @@
+package college.intro1;
+
+public class JavaExercise4 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1演習
+		// 4.１次元配列
+		//int型5個の配列aryを宣言し、{3, 11, 7, 5, 13}で初期化する。
+		//ary[5]を指定し「ArrayIndexOutOfBoundsException」を確認。
+		System.out.println();
+		int[] ary = {3, 11, 7, 5, 13};
+		System.out.println(ary[5]);
+		
+		
+		// 問題4_1
+		// 問題4_1
+		// 問題4_1
+
+	}
+
+}

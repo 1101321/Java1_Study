@@ -1,0 +1,24 @@
+package college.intro1;
+
+public class JavaExercise15 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1演習
+		
+		// 15. メソッド(関数)1
+	
+		int year = 0;
+		// 問題15
+		//問題6のうるう年計算を関数isUruを使用して作成。
+		if (isUru(year)) {
+			System.out.println("うるう年");
+		} else {
+			System.out.println("うるう年ではない");
+		}
+	}
+	
+	static boolean isUru( int year ) {
+		return false;
+	}
+}

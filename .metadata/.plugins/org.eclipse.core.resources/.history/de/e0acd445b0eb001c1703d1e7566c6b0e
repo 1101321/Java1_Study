@@ -1,0 +1,37 @@
+package college.intro1;
+
+import java.io.IOException;
+
+public class PracticalTraining1_1_12 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		try {
+			while(true) {
+				System.out.print("Enterで開始");
+				System.in.read();
+				System.in.read();
+				long start = System.currentTimeMillis();
+				System.out.print("スタート！");
+				System.in.read();
+				System.in.read();
+				long end = System.currentTimeMillis();
+				System.out.println("ストップ！");
+				long msDiff = end - start;
+				if (msDiff < 9000) {
+                    System.out.println("早い！！");
+                } else if (11000 < msDiff) {
+                    System.out.println("遅い！！");
+                } else {
+                    System.out.println("合格！！");
+                    break;
+                }
+			}
+		} catch (IOException e) {
+		// TODO 自動生成された catch ブロック
+			e.printStackTrace();
+		}
+		
+	}
+
+}

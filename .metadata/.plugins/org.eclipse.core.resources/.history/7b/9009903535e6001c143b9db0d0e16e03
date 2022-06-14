@@ -1,0 +1,54 @@
+package college.intro1;
+
+import java.util.Random;
+
+public class JavaExercise9 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1演習
+		
+		// 9. switch文制御
+		
+		// 問題9
+		//じゃんけんゲーム
+		/*
+		乱数を2個出し勝敗を表示する。(0:グー, 1:チョキ, 2:パー)
+		表示: Aさん:グー
+		Bさん:パー
+		Bさんの勝ち
+		*/
+		Random rnd = new Random();
+		int Asan = rnd.nextInt(3);
+		int Bsan = rnd.nextInt(3);
+		switch(Asan) {
+		case 0:
+			System.out.println("Aさん:グー");
+			break;
+		case 1:
+			System.out.println("Aさん:チョキ");
+			break;
+		case 2:
+			System.out.println("Aさん:パー");
+		}
+		switch(Bsan) {
+		case 0:
+			System.out.println("Bさん:グー");
+			break;
+		case 1:
+			System.out.println("Bさん:チョキ");
+			break;
+		case 2:
+			System.out.println("Bさん:パー");
+		}
+		switch(Asan - Bsan) {
+		case -1:
+			System.out.println();
+		}
+		
+		// 演習
+		System.out.println();
+
+	}
+
+}

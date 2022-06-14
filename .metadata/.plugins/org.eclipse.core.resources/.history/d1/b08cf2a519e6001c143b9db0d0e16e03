@@ -1,0 +1,40 @@
+package college.intro1;
+
+public class Exam3 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1演習
+		// 3.算術基礎
+		// 問題3_1
+		System.out.println();
+		int ix = 10;
+		int iy = 20;
+		iy = iy + ix;
+		iy = iy * ix;
+		System.out.println(ix);
+		System.out.println(iy);
+		
+		// 問題3_2
+		System.out.println();
+		ix = 10;
+		int iz;
+		iy = ix++;
+		iz = ++ix;
+		System.out.println(ix);
+		System.out.println(iy);
+		System.out.println(iz);
+		
+		// 問題3_3
+		System.out.println();
+		ix = 0x7FFFFFFF;
+		iy = 0x80000000;
+		System.out.println(ix);
+		System.out.println(iy);
+		System.out.println(ix + iy);
+		// 問題3_4
+		// 演習
+
+	}
+
+}

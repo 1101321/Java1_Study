@@ -1,0 +1,26 @@
+package college.intro1;
+
+public class PracticalTraining1_1_2 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1-1実習
+		
+		//◆ 文字列
+		/*
+		3つの文字列変数に下記文字列を設定し、strへ
+		半角スペース1個空けて連結して表示しなさい。
+		year  : "Millennium"
+		month : "Halloween"
+		day   : "Day"
+		連結用変数:str
+		*/
+		String year = "Millennium";
+		String month = "Halloween";
+		String day = "Day";
+		String str = year + " " + month + "" + day;
+		System.out.println(str);
+
+	}
+
+}

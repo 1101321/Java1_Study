@@ -1,0 +1,58 @@
+package college.intro1;
+
+public class Exam1 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		//Java言語入門1演習
+		System.out.println("Hello!!");
+		
+		//1.変数宣言
+		//問題1_1
+		int ix = 10;
+		int iy = 20;
+		System.out.println("ix = " + ix + " iy = " + iy);
+		
+		//問題1_2
+		double dx = 10.5;
+		double dy = 20.25;
+		System.out.println("dx = " + dx + " dy = " + dy);
+		
+		//問題1_3
+		short sx = 0 * 10;
+		short sy = 0 * 20;
+		System.out.println("sx = " + sx + " sy = " + sy);
+		
+		//演習
+		double pai = 3.141592;
+		System.out.println("pai = " + pai);
+		
+		long JupiterDistance = 750000000L;
+		System.out.println(JupiterDistance);
+		
+		float root = 2.2360679F;
+		System.out.println(root);
+		
+		System.out.println();//改行
+		
+		//2.1文字列
+		//問題2_1
+		String str = "Hello!!";
+		System.out.println(str);
+		
+		//問題2_2
+		String str1 = "Hello";
+		String str2 = "World!!";
+		str = str1 +  " " + str2;
+		System.out.println(str);
+		//問題2_3
+		
+		//2.2文字列
+		//問題2_4
+		//問題2_5
+		
+		//演習
+
+	}
+
+}

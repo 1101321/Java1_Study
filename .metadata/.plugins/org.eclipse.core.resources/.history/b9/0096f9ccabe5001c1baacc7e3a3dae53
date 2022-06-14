@@ -1,0 +1,37 @@
+package college.intro1;
+
+public class Exam2 {
+	
+	public static void main(String[] args) {
+		// 2.1文字列
+		// 問題2_1
+		String str = "Hello!!";
+		System.out.println();
+
+		// 問題2_2
+		String str1 = "Hello";
+		String str2 = "World!!";
+		str = str1 + " " + str2;
+		System.out.println(str);
+
+		// 問題2_3
+		char ch = 'あ';
+		System.out.println(ch+":"+(int)ch);
+
+		// 2.2文字列
+		// 問題2_4
+		int ix = 1234;
+		str = String.valueOf(ix);
+		System.out.println(str);
+
+		// 問題2_5
+		str = "5432";
+		ix = Integer.parseInt(str);
+		System.out.println(ix);
+
+		// 演習
+		String name = "hosaka";
+		System.out.println(name+"-san");
+	}
+
+}

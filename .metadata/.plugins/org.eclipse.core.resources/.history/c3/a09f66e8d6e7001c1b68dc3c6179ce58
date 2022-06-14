@@ -1,0 +1,46 @@
+package college.intro1;
+
+import java.util.Random;
+
+public class PracticalTraining1_1_9 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		// Java言語入門1-1実習
+		
+		//◆ switch文
+		Random rnd = new Random();
+		//【問題9-1】
+		/*
+		0から2の乱数を出して
+		0:グー、 1:チョキ、 2:パーを表示しなさい。
+		*/
+		int hand = rnd.nextInt(3);
+		switch(hand) {
+		 case 0:
+			 System.out.println("グー");
+			 break;
+		 case 1:
+			 System.out.println("チョキ");
+			 break;
+		 case 2:
+			 System.out.println("パー");
+		}
+		
+		//【問題9-2】
+		//100回試行し、それぞれの出た回数を調べなさい。
+		
+		//【問題9-3】
+		//2019年9月の指定された日付の曜日をswitch文を使って調べなさい。
+		
+		//◆ おまけ(if / switchを使わず)
+		//【問題9-4】
+		/*
+		2019年9月の指定された日付の曜日を調べなさい。
+		String[ ] weekStr = {"日曜日","月曜日","火曜日"・・・};
+		を使用して作成しなさい。
+		*/
+
+	}
+
+}
